@@ -8,10 +8,6 @@ class Controller
         $this->f3=$f3;
     }
 
-    public function beforeroute() {
-
-    }
-
     public function afterroute() {
         echo Template::instance()->render('layout.htm');
     }
